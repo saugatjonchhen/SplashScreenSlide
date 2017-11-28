@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#888"
+    android:id="@+id/settings_container"
+    tools:context="saugat.splashscreen_slide.fragment.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/language"
+        android:text="@string/change"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/english"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/english"
+            android:tag="english"
+            android:textColor="#000"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="80dp"-->
+            <!--android:layout_toEndOf="@+id/radio_eng"-->
+            <!--android:layout_toRightOf="@+id/radio_eng"-->
+            <!--android:text="English"-->
+            <!--android:textColor="#000" />-->
+        <RadioButton
+            android:id="@+id/nepali"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:tag="nepali"
+            android:text="@string/nepali" />
+
+    </RadioGroup>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="80dp"-->
+        <!--android:layout_marginTop="105dp"-->
+        <!--android:textColor="#000"-->
+        <!--android:text="Nepali" />-->
+
+
+
+</FrameLayout>

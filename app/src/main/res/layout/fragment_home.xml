@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment"
+        tools:context="saugat.splashscreen_slide.MainActivity">
+        <!--tools:context="com.example.saugatjonchhen.myapp.ListViewFragment">-->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</FrameLayout>
+
+
+    <!--<LinearLayout-->
+        <!--xmlns:tools="http://schemas.android.com/tools"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:orientation="vertical"-->
+        <!--tools:context="saugat.splashscreen_slide.MainActivity">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/textView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="List of Tourism Places in Nepal"-->
+            <!--android:textAlignment="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:background="#a1a1a1"-->
+            <!--android:textSize="30sp" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/annapurna" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem1"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/annapurna"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/bardiya_national_park" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem2"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/bardiya_national_park"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/boudhanath" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem3"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/boudhanath"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/central_zoo" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem4"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/central_zoo"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/chitwan_national_park" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem5"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/chitwan_national_park"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/dashinkali_temple" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem6"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/dashinkali_temple"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/gosaikunda" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem8"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/gosaikunda"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:orientation="horizontal">&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<ImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="100dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="100dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:scaleType="centerCrop"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@drawable/hanuman_dhoka" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/listItem9"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_gravity="center_vertical"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="@string/hanuman_dhoka"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:textSize="24sp" />&ndash;&gt;-->
+            <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/ktm_durbar_square" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem10"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/kathmandu_durbar_square"-->
+                    <!--android:textSize="24sp" />-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/kopan_monastery" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem12"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/kopan_monastry"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/langtang_national_park" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem13"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/langtang_national_park"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/lhotse" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem14"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/Lhotse"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/machapuchare" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem15"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/machapuchare"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/muktinath_temple" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem16"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/muktinath"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/narayanhity_palace" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem17"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/narayanhity_palace"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/old_freak_street" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem18"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/old_freak_street"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/pashupatinath" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem19"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/pashupati_nath_valley"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/sagarmatha_national_park" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem20"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/sagarmatha_national_park"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:scaleType="centerCrop"-->
+                    <!--android:src="@drawable/swayambhu_nath" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem21"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="@string/swayambunath"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="100dp"-->
+                    <!--android:layout_height="100dp"-->
+                    <!--android:src="@drawable/thamel_bazar" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/listItem22"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="@string/thamel"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:gravity="center"-->
+                    <!--android:textSize="24sp"/>-->
+            <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+

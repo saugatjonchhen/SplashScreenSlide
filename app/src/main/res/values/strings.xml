@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SplashScreen_slide</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+
+    <string name="chitwan_national_park">Chitwan National Park</string>
+    <string name="kathmandu_valley">Kathmandu Valley</string>
+    <string name="pashupati_nath_valley">Pashupati Nath Valley</string>
+    <string name="muktinath">Muktinath</string>
+    <string name="swayambunath">Swayambhunath</string>
+    <string name="boudhanath">Boudhanath</string>
+    <string name="thamel">Thamel</string>
+    <string name="bardiya_national_park">Bardiya National Park</string>
+    <string name="durbar_square">Bhaktapur Durbar Square</string>
+    <string name="sagarmatha_national_park">Sagarmatha National Park</string>
+    <string name="kathmandu_durbar_square">Kathmandu Durbar Square</string>
+    <string name="langtang_national_park">Langtang National Park</string>
+    <string name="hanuman_dhoka">Hanuman Dhoka</string>
+    <string name="narayanhity_palace">Narayanhity Palace</string>
+    <string name="machapuchare">Machapuchare</string>
+    <string name="kopan_monastry">Kopan Monastry</string>
+    <string name="Lhotse">Lhotse</string>
+    <string name="old_freak_street">Old Freak Street</string>
+    <string name="dashinkali_temple">Dashinkali Temple</string>
+    <string name="central_zoo">Central Zoo</string>
+    <string name="annapurna">Annapurna</string>
+    <string name="gosaikunda">Gosaikunda</string>
+
+    <string name="nepali">Nepali</string>
+    <string name="english">English</string>
+
+    <string name="change">Change Your Language</string>
+    <string name="other">Other</string>
+    <string name="login_register">Login/Register</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="info">Info</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="confirm_pwd">Confirm Password</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

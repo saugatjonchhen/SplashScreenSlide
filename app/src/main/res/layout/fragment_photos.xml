@@ -1,0 +1,780 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="saugat.splashscreen_slide.fragment.PhotosFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/annapurna"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/annapurna" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/annapurna2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/annapurna3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/annapurna4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bardiya_national_park"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bardiya_national_park" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bardiya_national_park2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bardiya_national_park3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bardiya_national_park4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boudhanath"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/boudhanath" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/boudhanath2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/boudhanath3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/boudhanath4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/durbar_square"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bhaktapur_durbar_square" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bhaktapur_durbar_square2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bhaktapur_durbar_square3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bhaktapur_durbar_square4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/central_zoo"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/central_zoo" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/central_zoo2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/central_zoo3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/central_zoo4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/chitwan_national_park"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chitwan_national_park" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chitwan_national_park2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chitwan_national_park3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/chitwan_national_park4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dashinkali_temple"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dashinkali_temple" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dashinkali_temple2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dashinkali_temple3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dashinkali_temple4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/gosaikunda"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gosaikunda" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gosaikunda2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gosaikunda3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gosaikunda4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kathmandu_durbar_square"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ktm_durbar_square" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ktm_durbar_square2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ktm_durbar_square3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ktm_durbar_square4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kopan_monastry"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kopan_monastery" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kopan_monastery2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kopan_monastery3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kopan_monastery4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/langtang_national_park"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/langtang_national_park" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/langtang_national_park2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/langtang_national_park3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/langtang_national_park4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Lhotse"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lhotse" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lhotse2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lhotse3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lhotse4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/machapuchare"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/machapuchare" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/machapuchare2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/machapuchare3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/machapuchare4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/muktinath"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/muktinath_temple" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/muktinath_temple2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/muktinath_temple3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/muktinath_temple4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/narayanhity_palace"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/narayanhity_palace" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/narayanhity_palace2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/narayanhity_palace3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/narayanhity_palace4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/old_freak_street"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/old_freak_street" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/old_freak_street2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/old_freak_street3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/old_freak_street4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pashupati_nath_valley"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pashupatinath" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pashupatinath2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pashupatinath3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/pashupatinath4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sagarmatha_national_park"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sagarmatha_national_park" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sagarmatha_national_park2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sagarmatha_national_park3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sagarmatha_national_park4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/swayambunath"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swayambhu_nath" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swayambhu_nath2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swayambhu_nath3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/swayambhu_nath4" />
+
+            </GridLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/thamel"
+                android:textSize="25dp"
+                android:textColor="@color/dot_dark_screen3"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thamel_bazar" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thamel2" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thamel_bazar3" />
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="95dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/thamel_bazar4" />
+
+            </GridLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>
